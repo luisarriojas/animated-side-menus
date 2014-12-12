@@ -1,0 +1,75 @@
+<!--
+Animated Side Menus
+Copyright (c) 2014 Luis Enrique Arriojas
+http://opensource.org/licenses/MIT
+-->
+<!doctype html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!--my css-->
+    <link href="css/side-menus.css" rel="stylesheet" type="text/css" media="screen" />
+    <!--my javascript-->
+    <script type="text/javascript" src="//code.jquery.com/jquery-2.1.0.min.js"></script>
+</head>
+
+<body>
+    <!--Main container-->
+    <div id="main">
+        <!--Options-->
+        <a menu="a" class="option leftButton" href="javascript:void(0);">Open menu-a</a>
+        <a menu="b" class="option leftButton" href="javascript:void(0);">Open menu-b</a>
+        <a menu="e" class="option rightButton" href="javascript:void(0);">Open menu-e</a>
+        <a menu="d" class="option rightButton" href="javascript:void(0);">Open menu-d</a>
+        <a menu="c" class="option rightButton" href="javascript:void(0);">Open menu-c</a>
+        <!--End options-->
+
+        <div id="credit">
+            Developed by <a href="http://www.luisarriojas.com" target="_blank">Luis Arriojas</a> and licensed under <a href="LICENSE" target="_blank">MIT License</a>.
+            <br/>Forked on <a href="//github.com/luisarriojas/side-menus" target="_blank">GitHub</a>.
+        </div>
+    </div>
+
+    <!--Menu container-->
+    <div id="menu-container">
+        <!--Menu A-->
+        <div id="menu-a" class="left-menu">
+            Hello, I'm the menu-a.
+            <br/>
+            <a class="option-close" href="javascript:void(0);">Close menu-a</a>
+        </div>
+
+        <!--Menu B-->
+        <div id="menu-b" class="left-menu">
+            Hello, I'm the menu-b.
+            <br/>
+            <a class="option-close" href="javascript:void(0);">Close menu-b</a>
+        </div>
+
+        <!--Menu C-->
+        <div id="menu-c" class="right-menu">
+            Hello, I'm the menu-c.
+            <br/>
+            <a class="option-close" href="javascript:void(0);">Close menu-c</a>
+        </div>
+
+        <!--Menu D-->
+        <div id="menu-d" class="right-menu">
+            Hello, I'm the menu-d.
+            <br/>
+            <a class="option-close" href="javascript:void(0);">Close menu-d</a>
+        </div>
+
+        <!--Menu E-->
+        <div id="menu-e" class="right-menu">
+            Hello, I'm the menu-e.
+            <br/>
+            <a class="option-close" href="javascript:void(0);">Close menu-e</a>
+        </div>
+
+        <!--Close button-->
+        <div id="close-button"></div>
+    </div>
+
+    <script type="text/javascript" src="js/side-menus.js"></script>
+</body>
